@@ -38,6 +38,14 @@ References:
     https://docs.microsoft.com/en-us/powershell/module/exchange/connect-ippssession?view=exchange-ps
 #>
 
+#region XML configuration and variables WIP
+# Create XML file with details about different Azure environment types and regions
+# Use XML as reference for URIs and AAD authentication points to keep this script clean
+$ConfigFile = Get-Content "environments.xml"
+$Environments = $ConfigFile.environments
+$Services = $ConfigFile.services
+#endregion XML configuration and variables WIP
+
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Confirm:$false -Force
 
 # Import the ExchangeOnlineManagement PowerShell Module
