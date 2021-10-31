@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Settings>
+	<Params>
+	</Params>
+</Settings>
+<Environments>
+        <GCCHigh>
+            <ExchangeEnvironmentName>O365USGovGCCHigh</ExchangeEnvironmentName>
+        </GCCHigh>
+        <Gov>
+        </Gov>
+        <DoD>
+        </DoD>
+        <Germany>
+        </Germany>
+        <China>
+        </China>
+        <Commercial>
+        </Commercial>
+</Environments>
+<Services>
+    <SecurityAndComplianceCenter>
+        <AzureADAuthorizationEndpointUri>https://ps.compliance.protection.office365.us/powershell-liveid/</AzureADAuthorizationEndpointUri>
+    </ServiceName>
+</Services>
